@@ -85,8 +85,8 @@ class Beaury365 extends React.Component {
 
                 <Slider {...settingSlide} className="m20">
                     {this.state.imgs.map((img, num) => (
-                        <div>
-                            <img className="carouselImg" alt="photo" src={img} />
+                        <div key={num}>
+                            <img className="carouselImg" alt="365 studio" src={img} />
                         </div>
                     ))}
                 </Slider>

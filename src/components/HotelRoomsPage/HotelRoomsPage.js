@@ -78,7 +78,7 @@ class HotelRoomsPage extends React.Component {
               break;            
             default:
                 this.setState({roomIndex: 0});
-          }      
+          }     
        
     }
 
@@ -96,7 +96,7 @@ class HotelRoomsPage extends React.Component {
 
                         <Row>
                             <Col md="6" className="m20 m-t15">
-                                <a className="backToMain" href="/" style={{ textDecoration: "none" }}>← На головну</a>
+                                <a className="backToMain" href="#/" style={{ textDecoration: "none" }}>← На головну</a>
                             </Col>
                             <Col md="12" className="m20">
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">

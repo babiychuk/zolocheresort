@@ -58,7 +58,7 @@ class HotelRooms extends React.Component {
 
 							    <div className="photobox__label">
 								    <p>Ціна за ніч від 2 600 грн</p>
-								    <a href="/hotel/standart">
+								    <a href="#/hotel/standart">
 									    <div className="btn btn-outline bg_hotelRooms">Детальніше</div>
 								    </a>
 							    </div>
@@ -73,7 +73,7 @@ class HotelRooms extends React.Component {
 
 							    <div className="photobox__label">
 								    <p>Ціна за ніч від 3 300 грн</p>
-								    <a href="/hotel/semilux">
+								    <a href="#/hotel/semilux">
 									    <div className="btn btn-outline bg_hotelRooms">Детальніше</div>
 								    </a>
 							    </div>
@@ -88,7 +88,7 @@ class HotelRooms extends React.Component {
 
 							    <div className="photobox__label">
 								    <p>Ціна за ніч від 3 900 грн</p>
-								    <a href="/hotel/lux">
+								    <a href="#/hotel/lux">
 									    <div className="btn btn-outline bg_hotelRooms">Детальніше</div>
 								    </a>
 							    </div>

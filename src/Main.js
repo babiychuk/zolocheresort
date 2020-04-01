@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import Home from "./components/Home/Home";
 import HotelRoomsPage from "./components/HotelRoomsPage/HotelRoomsPage";
 import HousesWaterPage from "./components/HousesWaterPage/HousesWaterPage";
@@ -16,7 +16,7 @@ import ContactsPage from "./components/Contacts/ContactsPage";
 class Main extends React.Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter basename='/'>
                 <Route exact path='/' component={Home} />
                 <Route path='/hotel/:room' component={HotelRoomsPage} />
                 <Route path='/house-rent/house-on-water/:house?' component={HousesWaterPage} />      
@@ -28,7 +28,7 @@ class Main extends React.Component {
                 <Route path='/beaury365' component={Beaury365Page} />     
                 <Route path='/restoran' component={RestoranPage} /> 
                 <Route path='/contacts' component={ContactsPage} />                            
-            </BrowserRouter>
+            </HashRouter>
         );
     }
 }

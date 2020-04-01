@@ -46,7 +46,7 @@ class HousesWater extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 6 800 грн</p>
-								    <a href="/house-rent/house-on-water/house9">
+								    <a href="#/house-rent/house-on-water/house9">
 									    <div className="btn btn-outline bg_housesWater">Детальніше</div>
 								    </a>
 							    </div>
@@ -61,7 +61,7 @@ class HousesWater extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 6 800 грн</p>
-								    <a href="/house-rent/house-on-water/house10">
+								    <a href="#/house-rent/house-on-water/house10">
 									    <div className="btn btn-outline bg_housesWater">Детальніше</div>
 								    </a>
 							    </div>
@@ -76,7 +76,7 @@ class HousesWater extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 6 800 грн</p>
-								    <a href="/house-rent/house-on-water/house11">
+								    <a href="#/house-rent/house-on-water/house11">
 									    <div className="btn btn-outline bg_housesWater">Детальніше</div>
 								    </a>
 							    </div>

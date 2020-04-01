@@ -92,8 +92,8 @@ class Fitnes extends React.Component {
                 </Row>
                 <Slider {...settingSlide} className="m20">
                     {this.state.imgs.map((img, num) => (
-                        <div>
-                            <img className="carouselImg" alt="photo" src={img} />
+                        <div key={num}>
+                            <img className="carouselImg" alt="Fitnes" src={img} />
                         </div>
                     ))}
                 </Slider>

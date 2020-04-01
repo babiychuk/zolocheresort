@@ -51,7 +51,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house2">
+								    <a href="#/house-rent/house-on-land/house2">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
@@ -66,7 +66,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house3">
+								    <a href="#/house-rent/house-on-land/house3">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
@@ -81,7 +81,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house4">
+								    <a href="#/house-rent/house-on-land/house4">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
@@ -96,7 +96,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house5">
+								    <a href="#/house-rent/house-on-land/house5">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
@@ -111,7 +111,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house6">
+								    <a href="#/house-rent/house-on-land/house6">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
@@ -126,7 +126,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house7">
+								    <a href="#/house-rent/house-on-land/house7">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
@@ -141,7 +141,7 @@ class HousesLand extends React.Component {
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
-								    <a href="/house-rent/house-on-land/house8">
+								    <a href="#/house-rent/house-on-land/house8">
 									    <div className="btn btn-outline bg_housesLand">Детальніше</div>
 								    </a>
 							    </div>
