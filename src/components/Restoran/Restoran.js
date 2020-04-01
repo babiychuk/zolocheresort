@@ -104,7 +104,7 @@ class Restoran extends React.Component {
                 </Row>
                 <Slider {...settingSlide} className="m20">
                     {this.state.imgs.map((img, num) => (
-                        <div key={num}>
+                        <div>
                             <img className="carouselImg" alt="photo" src={img} />
                         </div>
                     ))}
