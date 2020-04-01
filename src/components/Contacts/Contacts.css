@@ -1,0 +1,31 @@
+.block_contacts{
+	width: 100%;
+	background-image: url('../../img/headerContact.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: 100vh;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.tabInfo  {
+	padding:5px;
+	border-radius: 0px;
+	border: solid 1px #fff;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.titleAbout {
+	font-size:20px;
+	text-align:center;
+	
+}
+
+.p0-20 {
+	padding: 0 20px;
+}
+
+.ls-none{
+    list-style: none;
+}

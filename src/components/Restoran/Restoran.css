@@ -1,0 +1,10 @@
+.block_restoran{
+	width: 100%;
+	background-image: url('../../img/headerRestoran.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}

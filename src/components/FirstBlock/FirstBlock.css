@@ -1,0 +1,100 @@
+.first_block {	
+	width: 100%;
+	background-image: url('../../img/headerBack.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: 90vh;	
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+.home-video-wrapper {
+	
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+    
+.home-video-wrapper:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    content: "";
+}
+    
+    .home-video-wrapper video {
+        vertical-align: top;
+        height: auto;
+        width: 100%;
+        min-height: 100%;
+        min-width: 100%;
+        position: absolute;
+        left: 0;
+        top: 60%;
+        transform: translateY(-50%);
+    }
+
+    .telephone_block {	
+        position: absolute;
+        right: 0;	
+        top: 15%;
+        color:#fff;	
+        padding: 15px;
+    }
+
+    .telephone_block a {
+        font-size: 30px;
+    }
+
+    .shadow_tel {
+        background: #c6904f; /* Цвет фона */
+        box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */	
+        opacity: 0.9;
+    }
+
+    .header_block {	
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 40%;		
+    }
+    
+    .header_block h1 {	
+        font-size:60px;
+        font-family:'RobotoRegular',sans-serif;
+        text-align: center;
+        color: #c89b5b;
+        text-transform:uppercase;
+        letter-spacing:3px;
+        text-shadow: #ffffff 1px 1px 0, #ffffff -1px -1px 0, 
+                     #ffffff -1px 1px 0, #ffffff 1px -1px 0;
+    }
+    
+    .text_in_header {
+        margin: 20px 250px;
+        padding:5px; 
+        color:#fff;
+        font-size:18px;
+        text-align:center;
+        text-justify: auto;
+        font-weight: 200;	
+    }
+    
+    .text_in_header p {
+        margin: 0px;
+        padding:4px;	 		
+        text-shadow: 0 0 10px #000;   
+    }
+
+    .bg_headerText {
+        background: rgba(251, 251, 251, .2);  
+    }

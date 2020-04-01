@@ -1,0 +1,284 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.menu li {	
+		padding: 0px 5px;		
+	}
+	
+	#header_menu {margin-top: 0%;}
+
+	.text_in_header {margin:0}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {	
+	.headerNav {
+		position:fixed;	
+		height: 55px;
+		line-height: 40px;
+		background-color:#fff;		
+	}
+	
+	.menu {	margin-left: 0;}
+	
+	.menu a {	
+		display:block;
+		background-color:#fff;
+		font-size: 14px;
+		border-style:  solid;	
+		border-width: 1px;	
+		border-color: #eab56a;
+		padding: 0px 10px;	
+		color:#eab56a;
+	}
+	
+	.menu a:hover {	
+		background-color: #eab56a;	
+		border-color: #fff;	
+		color:#fff;	
+	}
+
+	.dropdown-menu {
+		padding: 0;
+		border: 10px solid rgba(0,0,0,.15);
+	}
+
+	.navbar-toggler {
+		top: -25px;
+		position: relative;
+		border-color: #eab56a !important;
+	}
+
+	.navbar-nav .nav-link {padding: 0px 10px}
+
+	#menu-navbar {
+		top: 55px;
+    	position: absolute;
+    	right: 0px;
+    	width: 70%;
+	}	
+
+	.brandLogo { margin-top:0; margin-left: 0%; }
+
+	.logo { width: 40%; }
+
+	.home-video-wrapper {display: none};
+
+	.text_in_header {margin:0}
+
+	.block_banya {height: auto;}	
+		
+	.block_infracstraction{height: auto;} 
+
+	.block_fitnes {height: auto;}
+
+	.block_spa {height: auto;}
+
+	.block_365 {height: auto;}	
+
+	.block_restoran {height: auto;}
+
+	.block_hotelRooms {height: auto;}
+
+	.block_housesWater {height: auto;}
+
+	.block_housesLand { height: auto;}
+	
+	.block_contacts { height: auto;} 	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.headerNav {
+		position:fixed;	
+		height: 55px;
+		line-height: 40px;
+		background-color:#fff;		
+	}
+	
+	.menu {	margin-left: 0;}
+	
+	.menu a {	
+		display:block;
+		background-color:#fff;
+		font-size: 14px;
+		border-style:  solid;	
+		border-width: 1px;	
+		border-color: #eab56a;
+		padding: 0px 10px;	
+		color:#eab56a;
+	}
+	
+	.menu a:hover {	
+		background-color: #eab56a;	
+		border-color: #fff;	
+		color:#fff;	
+	}
+
+	.dropdown-menu {
+		padding: 0;
+		border: 10px solid rgba(0,0,0,.15);
+	}
+
+	.navbar-toggler {
+		top: -25px;
+		position: relative;
+		border-color: #eab56a !important;
+	}
+
+	.navbar-nav .nav-link {padding: 0px 10px}
+
+	#menu-navbar {
+		top: 55px;
+    	position: absolute;
+    	right: 0px;
+    	width: 70%;
+	}	
+
+	.brandLogo { margin-top:0; margin-left: 0%; }
+
+	.logo { width: 40%; }
+
+	.text_in_header {margin:0}
+
+	.block_banya {height: auto;}
+	
+	.block_infracstraction{height: auto;} 
+
+	.block_fitnes {height: auto;}
+
+	.block_spa {height: auto;}
+
+	.block_365 {height: auto;}	
+
+	.block_restoran {height: auto;}
+
+	.block_hotelRooms {height: auto;}
+
+	.block_housesWater {height: auto;}
+
+	.block_housesLand{ height: auto;}
+	
+	.block_contacts { height: auto;} 
+	
+	.imgInText {    width: 100%;}
+
+	.nav-tabs_housesLand .nav-tabs>li {
+		width: 100%;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.headerNav {
+		position:fixed;	
+		height: 55px;
+		line-height: 40px;
+		background-color:#fff;		
+	}
+	
+	.menu {	margin-left: 0;}
+	
+	.menu a {	
+		display:block;
+		background-color:#fff;
+		font-size: 14px;
+		border-style:  solid;	
+		border-width: 1px;	
+		border-color: #eab56a;
+		padding: 0px 10px;	
+		color:#eab56a;
+	}
+	
+	.menu a:hover {	
+		background-color: #eab56a;	
+		border-color: #fff;	
+		color:#fff;	
+	}
+
+	.dropdown-menu {
+		padding: 0;
+		border: 10px solid rgba(0,0,0,.15);
+	}
+
+	.navbar-toggler {
+		top: -25px;
+		position: relative;
+		border-color: #eab56a !important;
+	}
+
+	.navbar-nav .nav-link {padding: 0px 10px}
+
+	#menu-navbar {
+		top: 55px;
+    	position: absolute;
+    	right: 0px;
+    	width: 70%;
+	}	
+
+	.brandLogo { margin-top:0; margin-left: 0%; }
+
+	.logo { width: 40%; }
+
+	.text_in_header {margin:0}
+
+	.block_banya {height: auto;}
+
+	.block_infracstraction{height: auto;} 
+
+	.block_fitnes {height: auto;}
+
+	.block_spa {height: auto;}
+
+	.block_365 {height: auto;}	
+
+	.block_restoran {height: auto;}
+
+	.block_hotelRooms {height: auto;}
+
+	.block_housesWater {height: auto;}
+
+	.block_housesLand{ height: auto;}
+	
+	.block_contacts { height: auto;} 
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	
+	.dropdown:hover .dropdown-menu {
+		display: block;  
+	}
+}

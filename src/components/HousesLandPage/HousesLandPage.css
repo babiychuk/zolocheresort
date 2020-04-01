@@ -1,0 +1,71 @@
+/*PAGE housesLand */
+
+.block_housesLand_H{
+	width: 100%;
+	background-image: url('../../img/headerHousesLand.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.priceHouseLand {
+	padding: 5px;
+    background-color: #408646;
+	text-align:left;
+	color:#fff;
+	font-weight:500;
+	padding-left: 5%;
+}
+
+.priceHouseLand_holiday
+{
+	padding: 5px;
+    background-color: #549859;
+	text-align:left;
+	color:#fff;
+	font-weight:500;
+	padding-left: 5%;
+}
+
+.nav-tabs_housesLand .nav-tabs{
+	border-bottom: 0px;
+	border-radius: 0;
+}
+
+.nav-tabs_housesLand .nav-tabs>li {
+	padding:5px;
+	font-size: 22px;
+	text-align:center;
+    cursor: default;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.nav-tabs_housesLand .nav-tabs>li>div {
+	background: rgba(58, 144, 65, 0.5);		
+	color: #fff;
+	border-radius: 0;
+}
+
+.nav-tabs_housesLand .nav-tabs>li>div:hover {
+	 background: rgba(58, 144, 65, 0.2);
+	 border-radius: 0;
+	 color: #fff;
+}
+
+.nav-tabs_housesLand .nav-tabs>li.active>div {
+	background: rgba(58, 144, 65, 0.7);
+    cursor: default;
+    background-color: #224455;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+	border-radius: 0;
+}
+
+.nav-tabs_housesLand .nav-tabs>li.active>div, .nav-tabs_housesLand .nav-tabs>li.active>div:focus, .nav-tabs_housesLand .nav-tabs>li.active>div:hover {
+	color: rgba(80, 149, 198, 0.5);
+	background-color: #fff;
+}

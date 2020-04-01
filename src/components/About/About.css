@@ -1,0 +1,11 @@
+.block_about{
+	width: 100%;
+	background-image: url('../../img/headerAbout.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;	
+	text-align: justify;		
+}

@@ -1,0 +1,71 @@
+/*PAGE housesWater */
+
+.block_housesWater_H{
+	width: 100%;
+	background-image: url('../../img/headerHousesWater.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.nav-tabs_housesWater .nav-tabs{
+	border-bottom: 0px;
+	border-radius: 0;
+}
+
+.nav-tabs_housesWater .nav-tabs>li {
+	padding:5px;
+	font-size: 22px;
+	text-align:center;
+    cursor: default;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.nav-tabs_housesWater .nav-tabs>li>div {
+	background-color: rgba(80, 149, 198, 0.5);		
+	color: #fff;
+	border-radius: 0;
+}
+
+.nav-tabs_housesWater .nav-tabs>li>div:hover {
+	 background: rgba(80, 149, 198, 0.2);
+	 border-radius: 0;
+	 color: #fff;
+}
+
+.nav-tabs_housesWater .nav-tabs>li.active>div {
+	color: rgba(198, 143, 80, .7);
+    cursor: default;
+    background-color: #224455;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+	border-radius: 0;
+}
+
+.nav-tabs_housesWater .nav-tabs>li.active>div, .nav-tabs_housesWater .nav-tabs>li.active>div:focus, .nav-tabs_housesWater .nav-tabs>li.active>div:hover {
+	color: rgba(80, 149, 198, 0.5);
+	background-color: #fff;
+}
+
+.priceHouseWater {
+	padding: 5px;
+    background-color: #618dac;
+	text-align:left;
+	color:#fff;
+	font-weight:500;
+	padding-left: 5%;
+}
+
+.priceHouseWater_holiday
+{
+	padding: 5px;
+    background-color: #6996b6;;
+	text-align:left;
+	color:#fff;
+	font-weight:500;
+	padding-left: 5%;
+}

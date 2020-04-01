@@ -1,0 +1,26 @@
+.block_housesLand{
+	width: 100%;
+	background-image: url('../../img/headerHousesLand.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.photobox_housesLand {	
+    margin: 10px 20px;
+    padding:5px;
+    border-radius: 0px;
+    border: solid 2px #fff;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;	
+    --photoboxOverlay: rgba(58, 144, 65, 0.5);
+    /*--photoboxAnimationDuration: .5s;*/
+  }
+
+  .bg_housesLand {
+	background: rgba(58, 144, 65, 0.5);  
+}

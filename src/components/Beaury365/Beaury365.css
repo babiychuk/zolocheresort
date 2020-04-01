@@ -1,0 +1,10 @@
+.block_365{
+	width: 100%;
+	background-image: url('../../img/header365.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}

@@ -1,0 +1,104 @@
+.block_hotelRooms_H{
+	width: 100%;
+	background-image: url('../../img/headerHotelRooms.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.nav-tabs {
+	border-bottom: 0px;
+	border-radius: 0;
+}
+
+.nav-tabs>li {
+	margin-right: 5px;
+	padding:5px;
+	font-size: 22px;	
+	text-align:center;
+    cursor: default;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+.nav-tabs .nav-link {
+    border-radius: 0px;
+}
+
+.nav-tabs>li>div {
+	background-color: rgba(198, 143, 80, .7);		
+	color: #fff;
+	border-radius: 0;
+}
+
+.nav-tabs>li>div:hover {
+     background: rgba(198, 143, 80, .5);  
+     color: #FFFAFA;
+     border-radius: 0;
+}
+
+.nav-tabs>li.active>div {
+	color: rgba(198, 143, 80, .7);
+    cursor: default;
+    background-color: #224455;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+	border-radius: 0;
+}
+
+.nav-tabs>li.active>div, .nav-tabs>li.active>div:focus, .nav-tabs>li.active>div:hover {
+	color: rgba(198, 143, 80, .7);
+	background-color: #fff;
+}
+
+.backToMain {
+	text-decoration: none;
+    padding: 5px;
+    background-color:rgba(255, 255, 255, .8);
+	border: solid 1px #fff;
+	color:#2e2e2e;
+}
+
+.priceRoom {
+	padding: 5px;
+    background-color: #c69051;
+	text-align:left;
+	color:#fff;
+	font-weight:500;
+	padding-left: 2%;
+}
+
+.priceRoom_holiday
+{
+	padding: 5px;
+    background-color: #c79d6b;
+	text-align:left;
+	color:#fff;
+	font-weight:500;
+	padding-left: 2%;
+}
+
+.gold_color {
+	color:#c89b5b;
+	font-weight: 500;
+    text-decoration: underline;
+}
+
+.red_color {
+	color:#f00000;
+	font-weight: 500;
+}
+
+
+.green_color {
+	color:#3fbf00;
+	font-weight: 500;
+}
+.m20 {
+    margin: 5px 20px;
+}
+.m-t15 {
+    margin-top: 15px;
+}

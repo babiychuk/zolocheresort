@@ -1,0 +1,10 @@
+.block_fitnes{
+	width: 100%;
+	background-image: url('../../img/headerFitnes.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
