@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59bb29e1bffce99b10d2e4995b9f127e",
+    "revision": "43929691a659fe3f7a6c3059c2ca694f",
     "url": "/zolocheresort/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zolocheresort/static/css/2.b88b8787.chunk.css"
   },
   {
-    "revision": "1e38b47a7d8623faf1dc",
-    "url": "/zolocheresort/static/css/main.453a2caa.chunk.css"
+    "revision": "254fcc81bfa96a83eca0",
+    "url": "/zolocheresort/static/css/main.c6a03697.chunk.css"
   },
   {
     "revision": "74e6ffaf2aed0a5a70ac",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zolocheresort/static/js/2.5dca64cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e38b47a7d8623faf1dc",
+    "revision": "254fcc81bfa96a83eca0",
     "url": "/zolocheresort/static/js/main.b89c3e08.chunk.js"
   },
   {
