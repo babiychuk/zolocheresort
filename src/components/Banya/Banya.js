@@ -104,7 +104,7 @@ class Banya extends React.Component {
                             </div>
 
 
-                            <a href="/banya">
+                            <a href="#/banya">
                                 <div className="btn btn-outline bg_hotelRooms">Детальніше</div>
                             </a>
                         </div>

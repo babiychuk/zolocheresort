@@ -135,6 +135,10 @@
 
 	.navbar-nav .nav-link {padding: 0px 10px}
 
+	.navbar-brand {
+		padding-top: 1.5rem;
+	} 
+
 	#menu-navbar {
 		top: 55px;
     	position: absolute;
@@ -170,9 +174,18 @@
 	
 	.imgInText {    width: 100%;}
 
+	.nav-tabs>li {
+		width: 100%;
+	}
+	
 	.nav-tabs_housesLand .nav-tabs>li {
 		width: 100%;
 	}
+
+	.nav-tabs_housesWater .nav-tabs>li {
+		width: 100%;
+	}
+	
 	
 }
 
@@ -210,10 +223,10 @@
 	}
 
 	.navbar-toggler {
-		top: -25px;
+		top: -15px;
 		position: relative;
 		border-color: #eab56a !important;
-	}
+	}  
 
 	.navbar-nav .nav-link {padding: 0px 10px}
 

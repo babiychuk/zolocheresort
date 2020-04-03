@@ -27,19 +27,19 @@
     border-radius: 0px;
 }
 
-.nav-tabs>li>div {
+.nav-tabs>li>a {
 	background-color: rgba(198, 143, 80, .7);		
 	color: #fff;
 	border-radius: 0;
 }
 
-.nav-tabs>li>div:hover {
+.nav-tabs>li>a:hover {
      background: rgba(198, 143, 80, .5);  
      color: #FFFAFA;
      border-radius: 0;
 }
 
-.nav-tabs>li.active>div {
+.nav-tabs>li.active>a {
 	color: rgba(198, 143, 80, .7);
     cursor: default;
     background-color: #224455;
@@ -48,7 +48,7 @@
 	border-radius: 0;
 }
 
-.nav-tabs>li.active>div, .nav-tabs>li.active>div:focus, .nav-tabs>li.active>div:hover {
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	color: rgba(198, 143, 80, .7);
 	background-color: #fff;
 }

@@ -27,7 +27,7 @@ class BanyaPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <div name="banya">
                 <Header />
                 <div className="block_banya_H">
 

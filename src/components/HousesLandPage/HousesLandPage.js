@@ -203,31 +203,28 @@ class HousesLandPage extends React.Component {
                         <hr align="center" width="40%" size="1" color="#fff" />
                     </Row>
                     <Row>
-                        <Col md="6" className="m20 m-t15">
-                            <a className="backToMain" href="#/" style={{ textDecoration: "none" }}>← На головну</a>
-                        </Col>
                         <Col md="12" className="m20 nav-tabs_housesLand">
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className={this.state.houseIndex === 0 ? 'active' : null}>
-                                    <div className="nav-link" id="profile-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 0 }) }} role="tab" aria-controls="profile" aria-selected="false">Будинок №2</div>
+                                    <a className="nav-link" id="profile-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 0 }) }} href="#/house-rent/house-on-land/house2" role="tab" aria-controls="profile" aria-selected="false">Будинок №2</a>
                                 </li>
                                 <li className={this.state.houseIndex === 1 ? 'active' : null}>
-                                    <div className="nav-link " id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 1 }) }} role="tab" aria-controls="contact" aria-selected="false">Будинок №3</div>
+                                    <a className="nav-link " id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 1 }) }} href="#/house-rent/house-on-land/house3" role="tab" aria-controls="contact" aria-selected="false">Будинок №3</a>
                                 </li>
                                 <li className={this.state.houseIndex === 2 ? 'active' : null}>
-                                    <div className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 2 }) }} role="tab" aria-controls="contact" aria-selected="false">Будинок №4</div>
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 2 }) }} href="#/house-rent/house-on-land/house4" role="tab" aria-controls="contact" aria-selected="false">Будинок №4</a>
                                 </li>
                                 <li className={this.state.houseIndex === 3 ? 'active' : null}>
-                                    <div className="nav-link" id="profile-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 3 }) }} role="tab" aria-controls="profile" aria-selected="false">Будинок №5</div>
+                                    <a className="nav-link" id="profile-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 3 }) }} href="#/house-rent/house-on-land/house5" role="tab" aria-controls="profile" aria-selected="false">Будинок №5</a>
                                 </li>
                                 <li className={this.state.houseIndex === 4 ? 'active' : null}>
-                                    <div className="nav-link " id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 4 }) }} role="tab" aria-controls="contact" aria-selected="false">Будинок №6</div>
+                                    <a className="nav-link " id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 4 }) }} href="#/house-rent/house-on-land/house6" role="tab" aria-controls="contact" aria-selected="false">Будинок №6</a>
                                 </li>
                                 <li className={this.state.houseIndex === 5 ? 'active' : null}>
-                                    <div className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 5 }) }} role="tab" aria-controls="contact" aria-selected="false">Будинок №7</div>
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 5 }) }} href="#/house-rent/house-on-land/house7" role="tab" aria-controls="contact" aria-selected="false">Будинок №7</a>
                                 </li>
                                 <li className={this.state.houseIndex === 6 ? 'active' : null}>
-                                    <div className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 6 }) }} role="tab" aria-controls="contact" aria-selected="false">Будинок №8</div>
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ houseIndex: 6 }) }} href="#/house-rent/house-on-land/house8" role="tab" aria-controls="contact" aria-selected="false">Будинок №8</a>
                                 </li>
                             </ul>
                         </Col>

@@ -44,19 +44,19 @@
     border: 1px solid #ddd;
 }
 
-.nav-tabs_housesLand .nav-tabs>li>div {
+.nav-tabs_housesLand .nav-tabs>li>a {
 	background: rgba(58, 144, 65, 0.5);		
 	color: #fff;
 	border-radius: 0;
 }
 
-.nav-tabs_housesLand .nav-tabs>li>div:hover {
+.nav-tabs_housesLand .nav-tabs>li>a:hover {
 	 background: rgba(58, 144, 65, 0.2);
 	 border-radius: 0;
 	 color: #fff;
 }
 
-.nav-tabs_housesLand .nav-tabs>li.active>div {
+.nav-tabs_housesLand .nav-tabs>li.active>a {
 	background: rgba(58, 144, 65, 0.7);
     cursor: default;
     background-color: #224455;
@@ -65,7 +65,7 @@
 	border-radius: 0;
 }
 
-.nav-tabs_housesLand .nav-tabs>li.active>div, .nav-tabs_housesLand .nav-tabs>li.active>div:focus, .nav-tabs_housesLand .nav-tabs>li.active>div:hover {
+.nav-tabs_housesLand .nav-tabs>li.active>a, .nav-tabs_housesLand .nav-tabs>li.active>a:focus, .nav-tabs_housesLand .nav-tabs>li.active>a:hover {
 	color: rgba(80, 149, 198, 0.5);
 	background-color: #fff;
 }

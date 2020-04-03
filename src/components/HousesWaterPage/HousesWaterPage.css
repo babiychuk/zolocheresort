@@ -25,19 +25,19 @@
     border: 1px solid #ddd;
 }
 
-.nav-tabs_housesWater .nav-tabs>li>div {
+.nav-tabs_housesWater .nav-tabs>li>a {
 	background-color: rgba(80, 149, 198, 0.5);		
 	color: #fff;
 	border-radius: 0;
 }
 
-.nav-tabs_housesWater .nav-tabs>li>div:hover {
+.nav-tabs_housesWater .nav-tabs>li>a:hover {
 	 background: rgba(80, 149, 198, 0.2);
 	 border-radius: 0;
 	 color: #fff;
 }
 
-.nav-tabs_housesWater .nav-tabs>li.active>div {
+.nav-tabs_housesWater .nav-tabs>li.active>a {
 	color: rgba(198, 143, 80, .7);
     cursor: default;
     background-color: #224455;
@@ -46,7 +46,7 @@
 	border-radius: 0;
 }
 
-.nav-tabs_housesWater .nav-tabs>li.active>div, .nav-tabs_housesWater .nav-tabs>li.active>div:focus, .nav-tabs_housesWater .nav-tabs>li.active>div:hover {
+.nav-tabs_housesWater .nav-tabs>li.active>a, .nav-tabs_housesWater .nav-tabs>li.active>a:focus, .nav-tabs_housesWater .nav-tabs>li.active>a:hover {
 	color: rgba(80, 149, 198, 0.5);
 	background-color: #fff;
 }

@@ -65,152 +65,168 @@ class HotelRoomsPage extends React.Component {
         };
     }
 
-    componentDidMount () {
+    componentDidMount() {
         switch (this.props.match.params.room) {
             case "standart":
-                this.setState({roomIndex: 0});
-              break;
+                this.setState({ roomIndex: 0 });
+                break;
             case "semilux":
-                this.setState({roomIndex: 1});
-              break;
+                this.setState({ roomIndex: 1 });
+                break;
             case "lux":
-                this.setState({roomIndex: 2});
-              break;            
+                this.setState({ roomIndex: 2 });
+                break;
             default:
-                this.setState({roomIndex: 0});
-          }     
-       
+                this.setState({ roomIndex: 0 });
+        }
+
     }
 
-    render() { 
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.match.params.room !== this.props.match.params.room) {
+            switch (nextProps.match.params.room) {
+                case "standart":
+                    this.setState({ roomIndex: 0 });
+                    break;
+                case "semilux":
+                    this.setState({ roomIndex: 1 });
+                    break;
+                case "lux":
+                    this.setState({ roomIndex: 2 });
+                    break;
+                default:
+                    this.setState({ roomIndex: 0 });
+            }
+        }
+        
+    }
+
+    render() {
         return (
             <div>
                 <Header />
                 <div className="block_hotelRooms_H">
-                        <Row>
-                            <Col md="12" className="title title_p">
-                                <p>ГОТЕЛЬНІ НОМЕРИ</p>
-                            </Col>
-                            <hr align="center" width="40%" size="1" color="#fff" />
-                        </Row>
+                    <Row>
+                        <Col md="12" className="title title_p">
+                            <p>ГОТЕЛЬНІ НОМЕРИ</p>
+                        </Col>
+                        <hr align="center" width="40%" size="1" color="#fff" />
+                    </Row>
 
-                        <Row>
-                            <Col md="6" className="m20 m-t15">
-                                <a className="backToMain" href="#/" style={{ textDecoration: "none" }}>← На головну</a>
-                            </Col>
-                            <Col md="12" className="m20">
-                                <ul className="nav nav-tabs" id="myTab" role="tablist">
-                                    <li className={this.state.roomIndex === 0 ? 'active' : null}>
-                                        <div className="nav-link" id="profile-tab" data-toggle="tab" onClick={()=>{this.setState({roomIndex: 0})}} role="tab" aria-controls="profile" aria-selected="false">Стандарт</div>
-                                    </li>
-                                    <li className={this.state.roomIndex === 1 ? 'active' : null}>
-                                        <div className="nav-link " id="contact-tab" data-toggle="tab" onClick={()=>{this.setState({roomIndex: 1})}} role="tab" aria-controls="contact" aria-selected="false">Напівлюкс</div>
-                                    </li>
-                                    <li className={this.state.roomIndex === 2 ? 'active' : null}>
-                                        <div className="nav-link" id="contact-tab" data-toggle="tab" onClick={()=>{this.setState({roomIndex: 2})}} role="tab" aria-controls="contact" aria-selected="false">Люкс</div>
-                                    </li>
-                                </ul>
-                            </Col>
-                        </Row>
-                        <Row className="m20">
-                            <Col md="6" className="tabInfo">
-                                <Row className="text">
-                                    <Col md="6" className="priceRoom">
-                                        Ціна за ніч у <b>будній день</b>:
+                    <Row>
+                        <Col md="12" className="m20 nav-tabs_hotelRooms">
+                            <ul className="nav nav-tabs" id="myTab" role="tablist">
+                                <li className={this.state.roomIndex === 0 ? 'active' : null} index={this.state.roomIndex}>
+                                    <a className="nav-link" id="profile-tab" data-toggle="tab" onClick={() => { this.setState({ roomIndex: 0 }) }} href="#/hotel/standart" role="tab" aria-controls="profile" aria-selected="false">Стандарт</a>
+                                </li>
+                                <li className={this.state.roomIndex === 1 ? 'active' : null} index={this.state.roomIndex}>
+                                    <a className="nav-link " id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ roomIndex: 1 }) }} href="#/hotel/semilux" role="tab" aria-controls="contact" aria-selected="false">Напівлюкс</a>
+                                </li>
+                                <li className={this.state.roomIndex === 2 ? 'active' : null} index={this.state.roomIndex}>
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" onClick={() => { this.setState({ roomIndex: 2 }) }} href="#/hotel/lux" role="tab" aria-controls="contact" aria-selected="false">Люкс</a>
+                                </li>
+                            </ul>
+                        </Col>
+                    </Row>
+                    <Row className="m20">
+                        <Col md="6" className="tabInfo">
+                            <Row className="text">
+                                <Col md="6" className="priceRoom">
+                                    Ціна за ніч у <b>будній день</b>:
 										    <p> {this.state.rooms[this.state.roomIndex].price} грн </p>
-                                    </Col>
-                                    <Col md="6" className="priceRoom_holiday">
-                                        Ціна за ніч у <b>вихідний день</b>:
-										    <p>{this.state.rooms[this.state.roomIndex].priceWeekend} грн </p>
-                                    </Col>
-                                    <Col md="12">
-                                        <span className="gold_color">{this.state.rooms[this.state.roomIndex].name}.</span> 
-                                        {this.state.rooms[this.state.roomIndex].text}
-                                    </Col>
-                                    <Col md="12"><b>Розмір номеру</b> {this.state.rooms[this.state.roomIndex].size}</Col>
-                                    <Col md="12"><span className="green_color">Безкоштовний Wi-Fi!</span></Col>
-                                    <Col md="12"><b>Паління:</b> <span className="red_color">заборонено</span></Col>
-                                    <Col md="12"><span className="green_color">Безкоштовна приватна парковка</span></Col>
-                                    <Row>
-                                        <Col md="6">
-                                            <ul>
-                                                <p><b>У ванній кімнаті:</b></p>
-                                                <li>Душ</li>
-                                                <li>Фен</li>
-                                                <li>Туалет</li>
-                                                <li>Туалетний набір</li>
-                                                <li>Халат</li>
-                                                <li>Капці</li>
-                                                <li>Полотенця</li>
-                                            </ul>
-                                        </Col>
-                                        <Col md="6">
-                                            <ul>
-                                                <p><b>Вид:</b></p>
-                                                <li>Вид на р.Дніпро</li>
-                                                <li>Вид на фонтани</li>
-                                                <li>Вид на басейн</li>
-                                            </ul>
-                                        </Col>
-                                        <Col md="6">
-                                            <ul>
-                                                <p><b>Послуги і зручності:</b></p>
-                                                <li>Телефон</li>
-                                                <li>Телевізор</li>
-                                                <li>Супутникові канали</li>
-                                                <li>Електрочайник</li>
-                                                <li>Послуга виклик таксі</li>
-                                                <li>Послуга будильник</li>
-                                            </ul>
-                                        </Col>
-                                        <Col md="6">
-                                            <ul>
-                                                <li>Кондиціонер</li>
-                                                <li>Прасувальні приналежності</li>
-                                                <li>Подовження ліжка (більше 2 метрів)</li>
-                                                <li>Опалення</li>
-                                                <li>Доступні сполучні кімнати</li>
-                                                <li>Окремий вхід</li>
-                                            </ul>
-                                        </Col>
-                                        <Col md="6">
-                                            <ul>
-                                                <li>Москітна сітка</li>
-                                                <li>Шкаф</li>
-                                                <li>Сейф</li>
-                                                <li>Кавоварка/чайник</li>
-                                                <li>Холодильник</li>
-                                            </ul>
-                                        </Col>
-                                        <Col md="6">
-                                            <ul >
-                                                <li>Тераса</li>
-                                                <li>Мармурова підлога</li>
-                                                <li>Меблі на вулиці</li>
-                                                <li>Обідня зона на вулиці</li>
-                                            </ul>
-                                        </Col>
-                                    </Row>
-                                </Row>
-                            </Col>
-
-                            <Col md="6">
-                                <Col md="12">
-                                    <Carousel interval={2000}>
-                                        {this.state.rooms[this.state.roomIndex].imgs.map((img, num) => (
-                                            <Carousel.Item key={num}>
-                                                <Row>
-                                                    <Col lg="12">
-                                                        <img className="carouselImg" alt="Стандарт" src={img} />
-                                                    </Col>
-                                                </Row>
-                                            </Carousel.Item>
-                                        ))}
-                                    </Carousel>
                                 </Col>
+                                <Col md="6" className="priceRoom_holiday">
+                                    Ціна за ніч у <b>вихідний день</b>:
+										    <p>{this.state.rooms[this.state.roomIndex].priceWeekend} грн </p>
+                                </Col>
+                                <Col md="12">
+                                    <span className="gold_color">{this.state.rooms[this.state.roomIndex].name}.</span>
+                                    {this.state.rooms[this.state.roomIndex].text}
+                                </Col>
+                                <Col md="12"><b>Розмір номеру</b> {this.state.rooms[this.state.roomIndex].size}</Col>
+                                <Col md="12"><span className="green_color">Безкоштовний Wi-Fi!</span></Col>
+                                <Col md="12"><b>Паління:</b> <span className="red_color">заборонено</span></Col>
+                                <Col md="12"><span className="green_color">Безкоштовна приватна парковка</span></Col>
+                                <Row>
+                                    <Col md="6">
+                                        <ul>
+                                            <p><b>У ванній кімнаті:</b></p>
+                                            <li>Душ</li>
+                                            <li>Фен</li>
+                                            <li>Туалет</li>
+                                            <li>Туалетний набір</li>
+                                            <li>Халат</li>
+                                            <li>Капці</li>
+                                            <li>Полотенця</li>
+                                        </ul>
+                                    </Col>
+                                    <Col md="6">
+                                        <ul>
+                                            <p><b>Вид:</b></p>
+                                            <li>Вид на р.Дніпро</li>
+                                            <li>Вид на фонтани</li>
+                                            <li>Вид на басейн</li>
+                                        </ul>
+                                    </Col>
+                                    <Col md="6">
+                                        <ul>
+                                            <p><b>Послуги і зручності:</b></p>
+                                            <li>Телефон</li>
+                                            <li>Телевізор</li>
+                                            <li>Супутникові канали</li>
+                                            <li>Електрочайник</li>
+                                            <li>Послуга виклик таксі</li>
+                                            <li>Послуга будильник</li>
+                                        </ul>
+                                    </Col>
+                                    <Col md="6">
+                                        <ul>
+                                            <li>Кондиціонер</li>
+                                            <li>Прасувальні приналежності</li>
+                                            <li>Подовження ліжка (більше 2 метрів)</li>
+                                            <li>Опалення</li>
+                                            <li>Доступні сполучні кімнати</li>
+                                            <li>Окремий вхід</li>
+                                        </ul>
+                                    </Col>
+                                    <Col md="6">
+                                        <ul>
+                                            <li>Москітна сітка</li>
+                                            <li>Шкаф</li>
+                                            <li>Сейф</li>
+                                            <li>Кавоварка/чайник</li>
+                                            <li>Холодильник</li>
+                                        </ul>
+                                    </Col>
+                                    <Col md="6">
+                                        <ul >
+                                            <li>Тераса</li>
+                                            <li>Мармурова підлога</li>
+                                            <li>Меблі на вулиці</li>
+                                            <li>Обідня зона на вулиці</li>
+                                        </ul>
+                                    </Col>
+                                </Row>
+                            </Row>
+                        </Col>
+
+                        <Col md="6">
+                            <Col md="12">
+                                <Carousel interval={2000}>
+                                    {this.state.rooms[this.state.roomIndex].imgs.map((img, num) => (
+                                        <Carousel.Item key={num}>
+                                            <Row>
+                                                <Col lg="12">
+                                                    <img className="carouselImg" alt="Стандарт" src={img} />
+                                                </Col>
+                                            </Row>
+                                        </Carousel.Item>
+                                    ))}
+                                </Carousel>
                             </Col>
-                        </Row>
-                    </div>
+                        </Col>
+                    </Row>
+                </div>
                 <Footer />
             </div>
         );
