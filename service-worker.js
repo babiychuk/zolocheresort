@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zolocheresort/precache-manifest.5cd3b6778af1bd7f73f6370f5b5efcaa.js"
+  "/zolocheresort/precache-manifest.d1d2264a9959f0f048140fb49d62b21d.js"
 );
 
 self.addEventListener('message', (event) => {
