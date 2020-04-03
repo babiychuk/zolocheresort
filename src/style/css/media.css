@@ -128,7 +128,7 @@
 	}
 
 	.navbar-toggler {
-		top: -25px;
+		top: 0px;
 		position: relative;
 		border-color: #eab56a !important;
 	}
@@ -136,7 +136,7 @@
 	.navbar-nav .nav-link {padding: 0px 10px}
 
 	.navbar-brand {
-		padding-top: 1.5rem;
+		padding-top: 3.5rem;
 	} 
 
 	#menu-navbar {
@@ -177,7 +177,7 @@
 	.nav-tabs>li {
 		width: 100%;
 	}
-	
+
 	.nav-tabs_housesLand .nav-tabs>li {
 		width: 100%;
 	}
@@ -221,12 +221,6 @@
 		padding: 0;
 		border: 10px solid rgba(0,0,0,.15);
 	}
-
-	.navbar-toggler {
-		top: -15px;
-		position: relative;
-		border-color: #eab56a !important;
-	}  
 
 	.navbar-nav .nav-link {padding: 0px 10px}
 
