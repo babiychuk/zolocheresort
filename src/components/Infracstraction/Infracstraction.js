@@ -307,7 +307,7 @@ class Infracstraction extends React.Component {
                                 <Row md="12">
                                     <ul className="col-md-6">
                                         <p><b>Парк Ranger's:</b></p>
-                                        <li>футбольне, віолейбольне, баскетбольне поле</li>
+                                        <li>футбольне, волейбольне, баскетбольне поле</li>
                                         <li>вуличні тренажери</li>
                                         <li>дитячий майданчик</li>
                                         <li>зони відпочинку з альтанками</li>

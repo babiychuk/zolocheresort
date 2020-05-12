@@ -26,7 +26,7 @@ class FirstBlock extends React.Component {
                         <Col sm={{order: 12 }}>
                             <div className="text_in_header bg_headerText">
                                 <p className="">
-                                    Територія безтурботнього відпочинку в котеджному містечку Zoloche
+                                Територія безтурботного відпочинку в котеджному містечку Zoloche
 						        </p>
                             </div>                        
                         </Col>

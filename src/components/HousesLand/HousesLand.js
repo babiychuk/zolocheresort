@@ -30,13 +30,7 @@ class HousesLand extends React.Component {
                     <div className="col-md-12 ">
                         <div className="text_in_block bg_housesLand">
                             <div>
-                            <span className="light_gold_color">Riviera Zoloche Resort & SPA</span> пропонує у довгострокову
-							оренду будинок на узбережжі.
-							Комфортабельний будиночок, загальною площею 120м2. Виконано в сучасному
-							стилі, повністю мебльований. У будиночку є дві затишні спальні, кабінет
-							(гардеробна), два санвузли, простора вітальня і обідня зони, кухня з
-							необхідною технікою і кухонним начинням. Для відпочинку на відкритому повітрі
-							передбачена простора тераса з видом на Дніпро, затишними меблями і телевізором.
+                            <span className="light_gold_color">Riviera Zoloche Resort & SPA</span> пропонує у довгострокову оренду будинок на узбережжі. Комфортабельний будиночок загальною площею 120м2, виконано в сучасному стилі, повністю мебльований. У будиночку є дві затишні спальні, кабінет (гардеробна), два санвузли, простора вітальня і обідня зона, кухня з необхідною технікою і кухонним начинням. Для відпочинку на відкритому повітрі передбачена простора тераса з видом на Дніпро, затишними меблями і телевізором.
                             </div>
                         </div>          
                     </div>
@@ -47,7 +41,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House2} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №2</span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №2</span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
@@ -62,7 +56,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House3} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №3 </span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №3 </span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
@@ -77,7 +71,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House4} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №4</span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №4</span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
@@ -92,7 +86,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House5} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №5</span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №5</span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
@@ -107,7 +101,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House6} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №6 </span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №6 </span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
@@ -122,7 +116,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House7} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №7</span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №7</span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>
@@ -137,7 +131,7 @@ class HousesLand extends React.Component {
                         <div className="photobox_housesLand photobox_type9">
 						    <div className="photobox__previewbox">
 							    <img src={House8} className="photobox__preview" alt="Preview" />
-							    <span className="photobox__Staticklabel bg_housesLand">Будинок на воді №8</span>
+							    <span className="photobox__Staticklabel bg_housesLand">Будинок №8</span>
 
 							    <div className="photobox__label">
 								    <p> Ціна за ніч від 5 700 грн</p>

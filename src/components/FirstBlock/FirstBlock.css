@@ -34,12 +34,12 @@
     .home-video-wrapper video {
         vertical-align: top;
         height: auto;
-        width: 100%;
+        width: auto;
         min-height: 100%;
         min-width: 100%;
         position: absolute;
         left: 0;
-        top: 60%;
+        top: 50%;
         transform: translateY(-50%);
     }
 
